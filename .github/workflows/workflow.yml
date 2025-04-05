@@ -28,7 +28,7 @@ jobs:
       - name: Ejecutar script Python
         run: |
           mkdir build_output
-          python3.12 primer-entregable-cicd/my_script.py > build_output/output.txt
+          python3.12 primer-entregable-cicd/mi_script.py > build_output/output.txt
 
         
       - name: Subir artefactos construidos
